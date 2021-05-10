@@ -1,0 +1,130 @@
+2021-05-09 09:48:58.249 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 14160 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 09:48:58.249 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 09:48:58.842 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 09:48:58.858 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 09:48:58.874 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-05-09 09:48:59.296 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 09:48:59.311 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 09:48:59.311 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 09:48:59.311 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 09:48:59.389 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 09:48:59.389 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 1094 ms
+2021-05-09 09:48:59.842 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 09:49:00.317 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 09:49:00.333 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 09:49:00.333 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 2.451 seconds (JVM running for 3.992)
+2021-05-09 09:49:15.848 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 09:49:15.848 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 09:49:15.849 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-05-09 09:49:15.947 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 09:57:26.904 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-09 09:57:26.904 INFO [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2021-05-09 09:57:32.371 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 11160 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 09:57:32.371 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 09:57:32.904 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 09:57:32.904 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 09:57:32.919 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-05-09 09:57:33.310 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 09:57:33.328 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 09:57:33.328 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 09:57:33.328 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 09:57:33.391 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 09:57:33.391 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 988 ms
+2021-05-09 09:57:33.755 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 09:57:34.194 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 09:57:34.213 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 09:57:34.213 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 2.223 seconds (JVM running for 3.08)
+2021-05-09 09:57:38.952 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 09:57:38.952 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 09:57:38.953 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-05-09 09:57:39.018 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 10:02:57.322 INFO [http-nio-8081-exec-3]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=3
+2021-05-09 10:17:18.368 INFO [http-nio-8081-exec-2]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:20:29.359 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-09 10:20:29.359 INFO [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2021-05-09 10:20:34.914 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 12460 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 10:20:34.914 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 10:20:35.383 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 10:20:35.383 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 10:20:35.399 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-09 10:20:35.712 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 10:20:35.712 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:20:35.712 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 10:20:35.712 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 10:20:35.777 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 10:20:35.777 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 816 ms
+2021-05-09 10:20:36.076 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 10:20:36.419 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:20:36.435 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 10:20:36.451 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 1.826 seconds (JVM running for 2.541)
+2021-05-09 10:20:45.501 INFO [http-nio-8081-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 10:20:45.501 INFO [http-nio-8081-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 10:20:45.502 INFO [http-nio-8081-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-05-09 10:20:45.556 INFO [http-nio-8081-exec-3]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 10:21:11.182 INFO [http-nio-8081-exec-5]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:32:31.122 INFO [http-nio-8081-exec-7]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:33:53.801 INFO [http-nio-8081-exec-5]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=3
+2021-05-09 10:34:48.006 INFO [http-nio-8081-exec-9]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:37:12.785 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 8100 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 10:37:12.785 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 10:37:13.286 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 10:37:13.286 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 10:37:13.317 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-05-09 10:37:13.692 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 10:37:13.692 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:37:13.692 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 10:37:13.692 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 10:37:13.756 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 10:37:13.756 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 924 ms
+2021-05-09 10:37:14.117 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 10:37:14.545 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:37:14.565 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 10:37:14.568 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 2.152 seconds (JVM running for 3.059)
+2021-05-09 10:37:21.964 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 10:37:21.964 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 10:37:21.965 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-05-09 10:37:22.042 INFO [http-nio-8081-exec-3]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 10:37:31.097 INFO [http-nio-8081-exec-4]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:39:55.461 INFO [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-09 10:39:55.461 INFO [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2021-05-09 10:49:52.051 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 10760 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 10:49:52.054 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 10:49:52.531 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 10:49:52.532 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 10:49:52.550 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-05-09 10:49:52.895 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 10:49:52.901 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:49:52.901 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 10:49:52.902 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 10:49:52.967 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 10:49:52.968 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 871 ms
+2021-05-09 10:49:53.263 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 10:49:53.642 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 10:49:53.655 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 10:49:53.662 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 1.928 seconds (JVM running for 2.697)
+2021-05-09 10:49:58.914 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 10:49:58.914 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 10:49:58.915 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-05-09 10:49:58.981 INFO [http-nio-8081-exec-2]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 10:50:04.085 INFO [http-nio-8081-exec-8]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 10:54:05.987 INFO [http-nio-8081-exec-1]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
+2021-05-09 11:03:25.720 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarting:55 -Starting XdvideoApplication using Java 1.8.0_241 on LAPTOP-97DOEO9E with PID 19420 (E:\Java项目\微信支付项目\xdvideo\xdvideo\target\classes started by 联想 in E:\Java项目\微信支付项目\xdvideo\xdvideo)
+2021-05-09 11:03:25.720 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2021-05-09 11:03:26.200 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:250 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-09 11:03:26.200 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:128 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-09 11:03:26.216 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:188 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-05-09 11:03:26.554 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8081 (http)
+2021-05-09 11:03:26.554 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-09 11:03:26.554 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-05-09 11:03:26.554 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-09 11:03:26.615 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-05-09 11:03:26.615 INFO [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:289 -Root WebApplicationContext: initialization completed in 864 ms
+2021-05-09 11:03:26.914 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 11:03:27.262 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2021-05-09 11:03:27.277 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-09 11:03:27.277 INFO [main]net.xdclass.xdvideo.XdvideoApplication.logStarted:61 -Started XdvideoApplication in 1.875 seconds (JVM running for 2.647)
+2021-05-09 11:03:32.477 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 11:03:32.477 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-05-09 11:03:32.478 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 0 ms
+2021-05-09 11:03:32.545 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2021-05-09 11:03:34.318 INFO [http-nio-8081-exec-3]dataLogger.save:46 -module=video_order`api=save`user_id=1`video_id=2
