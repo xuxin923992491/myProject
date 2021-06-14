@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import net.xdclass.xdvideo.domain.Video;
 import net.xdclass.xdvideo.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -33,7 +34,6 @@ public class VideoController {
                             @RequestParam(value = "size",defaultValue = "10")int size){
         //分页查询的核心原理是底层插入了一个拦截器，在原来sql语句基础上加上limit
         PageHelper.startPage(page,size);//相当于默认1页10个
-
         List<Video> list = videoService.findAll();
         //下面的方法能够实现分页后输出分页的详细信息（很多条信息，比如总数，是不是最后一页等很多）
         PageInfo<Video> pageInfo = new PageInfo<>(list);

@@ -1,6 +1,7 @@
 package net.xdclass.xdvideo.service;
 
 import net.xdclass.xdvideo.domain.Video;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

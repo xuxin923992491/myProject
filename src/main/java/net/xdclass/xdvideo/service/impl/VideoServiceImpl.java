@@ -4,6 +4,8 @@ import net.xdclass.xdvideo.domain.Video;
 import net.xdclass.xdvideo.mapper.VideoMapper;
 import net.xdclass.xdvideo.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,11 +17,13 @@ public class VideoServiceImpl implements VideoService {
     private VideoMapper videoMapper;
 
     @Override
+    @Cacheable(value = "videoList",keyGenerator = "keyGenerator")
     public List<Video> findAll() {
         return videoMapper.findAll();
     }
 
     @Override
+    //@Cacheable(value = "OneVideo",keyGenerator = "keyGenerator")
     public Video findById(int id) {
         return videoMapper.findById(id);
     }
@@ -35,6 +39,7 @@ public class VideoServiceImpl implements VideoService {
     }
 
     @Override
+    @CacheEvict(value = "videoList", allEntries=true)
     public int save(Video video) {
         int rows = videoMapper.save(video);
         //System.out.println("保存对象的id= " + video.getId());

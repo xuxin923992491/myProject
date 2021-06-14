@@ -2,6 +2,7 @@ package net.xdclass.xdvideo.service;
 
 import net.xdclass.xdvideo.domain.VideoOrder;
 import net.xdclass.xdvideo.dto.VideoOrderDto;
+import org.springframework.stereotype.Repository;
 
 
 /**

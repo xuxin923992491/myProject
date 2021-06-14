@@ -2,12 +2,14 @@ package net.xdclass.xdvideo.mapper;
 
 import net.xdclass.xdvideo.domain.VideoOrder;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * 订单dao层
  */
+@Repository
 public interface VideoOrderMapper {
     /**
      * 保存订单，包含主键

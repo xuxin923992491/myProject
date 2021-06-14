@@ -3,12 +3,14 @@ package net.xdclass.xdvideo.mapper;
 import net.xdclass.xdvideo.domain.Video;
 import net.xdclass.xdvideo.provider.VideoProvider;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * video数据访问层
  */
+@Repository
 public interface VideoMapper {
 
     @Select("select * from video")
